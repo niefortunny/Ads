@@ -6,6 +6,9 @@ public class Config : BasePluginConfig
     [JsonPropertyName("Interval")]
     public int Interval { get; set; } = 2;
 
+    [JsonPropertyName("Sound")]
+    public string Sound { get; set; } = "tr.Popup";
+
     [JsonPropertyName("Ads")]
     public List<string> Ads { get; set; } = [];
 }

@@ -27,7 +27,7 @@ public partial class Ads
         {
             player.PrintToChat(Localizer.ForPlayer(player, adMessage));
             RecipientFilter filter = [player];
-            player.EmitSound("tr.Popup", filter);
+            player.EmitSound(Config.Sound, filter);
         }
 
         return HookResult.Continue;
