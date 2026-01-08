@@ -14,7 +14,7 @@ public partial class Ads
             return HookResult.Continue;
 
         var totalScore = GetCSTeamScore(CsTeam.Terrorist) + GetCSTeamScore(CsTeam.CounterTerrorist);
-        if (totalScore % Config.Interval != 0)
+        if (totalScore % Config.Interval != 0 || totalScore == 0)
             return HookResult.Continue;
 
         var random = new Random();
