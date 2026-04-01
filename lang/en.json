@@ -1,9 +1,9 @@
 {
-    "GrindStreaks": "Lightning icons on TAB show consecutive login days. Longer streaks make the icon more intense and red.",
-    "LotteryCmd": "Type .lottery to customize your experience and learn more about the lottery.",
-    "Discord": "Join our Discord for surveys and updates: https://discord.hsmania.net",
-    "Store": "Type .sklepsms or visit https://hsownia.sklepcs.pl to buy items.",
-    "JoinVol": "Support our growth and apply to be a volunteer at https://join.hsmania.net",
-    "VIP_Pricing": "VIP access is available for ~0.47 €.",
-    "Reservation_Pricing": "Priority access is available for ~0.24 €."
+    "GrindStreaks": "<font color='#FFFFFF'>Lightning icons</font> on TAB show consecutive login days. <font color='#FF0000'>Longer streaks make the icon more intense and red.</font>",
+    "LotteryCmd": "Type <font color='#FFFFFF'>.lottery</font> to customize your experience and learn more about the lottery.",
+    "Discord": "Join our Discord for surveys and updates: <font color='#A020F0'>https://discord.hsmania.net</font><br><img src='https://github.com/niefortunny/Ads/blob/main/img/dc_qrcode.png?raw=true' alt='QR Code'>",
+    "Store": "Type <font color='#FFFFFF'>.sklepsms</font> or visit <font color='#A020F0'>https://hsownia.sklepcs.pl</font> to buy items.",
+    "JoinVol": "Support our growth and apply to be a <font color='#00FF00'>volunteer</font> at <font color='#A020F0'>https://join.hsmania.net</font>",
+    "VIP_Pricing": "<font color='#008000'>VIP access</font> is available for <font color='#00FF00'>~0.47 €</font>.",
+    "Reservation_Pricing": "<font color='#008000'>Priority access</font> is available for <font color='#00FF00'>~0.24 €</font>."
 }
