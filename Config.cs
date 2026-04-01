@@ -14,7 +14,6 @@ public class Config : BasePluginConfig
         "Discord.Info",
         "Volunteer.Info",
         "Wiki.Info",
-        "Wiki.Commands",
         "Bug.Info",
         "Match.Info",
     ];

@@ -1,9 +1,11 @@
 {
-    "GrindStreaks": "<font color='#FFFFFF'>Lightning icons</font> on TAB show consecutive login days. <font color='#FF0000'>Longer streaks make the icon more intense and red.</font>",
-    "LotteryCmd": "Type <font color='#FFFFFF'>.lottery</font> to customize your experience and learn more about the lottery.",
-    "Discord": "Join our Discord for surveys and updates: <font color='#A020F0'>https://discord.hsmania.net</font><br><img src='https://github.com/niefortunny/Ads/blob/main/img/dc_qrcode.png?raw=true' alt='QR Code'>",
-    "Store": "Type <font color='#FFFFFF'>.sklepsms</font> or visit <font color='#A020F0'>https://hsownia.sklepcs.pl</font> to buy items.",
-    "JoinVol": "Support our growth and apply to be a <font color='#00FF00'>volunteer</font> at <font color='#A020F0'>https://join.hsmania.net</font>",
-    "VIP_Pricing": "<font color='#008000'>VIP access</font> is available for <font color='#00FF00'>~0.47 €</font>.",
-    "Reservation_Pricing": "<font color='#008000'>Priority access</font> is available for <font color='#00FF00'>~0.24 €</font>."
+    "Store.Info": "Support our server network -- Visit <font color='#4CAF50'>https://hsownia.sklepcs.pl</font> or type <font color='#FFD700'>.sklepsms</font>",
+    "Store.VIP": "VIP access starting at <font color='#FFD700'>€0.45</font>! More info at -- <font color='#4CAF50'>https://hsownia.sklepcs.pl</font> or type <font color='#FFD700'>.sklepsms</font>",
+    "Store.Reservation": "Priority access from <font color='#FFD700'>€0.23</font>! More info at -- <font color='#4CAF50'>https://hsownia.sklepcs.pl</font> or type <font color='#FFD700'>.sklepsms</font>",
+    "Discord.Info": "<img src='https://github.com/niefortunny/Ads/blob/main/img/qr-discord.png?raw=true'>Join our <font color='#5865F2'>Discord!</font> Visit <font color='#5865F2'>https://discord.hsmania.net</font>",
+    "Volunteer.Info": "Join our team! Up to <font color='#FFD700'>€7.00</font> per week for the most active! -- Fill out the form at <font color='#4CAF50'>https://join.hsmania.net</font>",
+    "Wiki.Info": "<img src='https://github.com/niefortunny/Ads/blob/main/img/qr-wiki-commands.png?raw=true'><font color='#2196F3'>Server command list!</font> Visit <font color='#5865F2'>https://hsmania.net/wiki/article/commands</font>",
+    "Tournament.Info": "We are organizing another <font color='#FF5722'>CS2</font> tournament! -- More info on <font color='#5865F2'>https://discord.hsmania.net</font>",
+    "Bug.Info": "Found a bug? Report it on <font color='#5865F2'>Discord</font> -- https://discord.hsmania.net",
+    "Match.Info": "<img src='https://github.com/niefortunny/Ads/blob/main/img/match-banner.png?raw=true'>"
 }

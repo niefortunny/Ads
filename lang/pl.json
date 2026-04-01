@@ -1,9 +1,11 @@
 {
-    "GrindStreaks": "<font color='#FFFFFF'>Ikony błyskawic</font> na TAB pokazują dni logowania z rzędu. <font color='#FF0000'>Dłuższe serie sprawiają, że ikona staje się intensywniejsza i czerwona.</font>",
-    "LotteryCmd": "Wpisz <font color='#FFFFFF'>.lottery</font>, aby spersonalizować ustawienia i dowiedzieć się więcej o loterii.",
-    "Discord": "Dołącz do Discorda, aby brać udział w ankietach i śledzić ogłoszenia: <font color='#A020F0'>https://discord.hsmania.net</font><br><img src='https://github.com/niefortunny/Ads/blob/main/img/dc_qrcode.png?raw=true' alt='Kod QR'>",
-    "Store": "Wpisz <font color='#FFFFFF'>.sklepsms</font> lub odwiedź <font color='#A020F0'>https://hsownia.sklepcs.pl</font>, aby kupić przedmioty.",
-    "JoinVol": "Wesprzyj nasz rozwój i zostań <font color='#00FF00'>wolontariuszem</font> – aplikuj na <font color='#A020F0'>https://join.hsmania.net</font>",
-    "VIP_Pricing": "Dostęp <font color='#008000'>VIP</font> jest dostępny od <font color='#00FF00'>2 wPLN</font>.",
-    "Reservation_Pricing": "<font color='#008000'>Priorytetowy dostęp</font> jest dostępny od <font color='#00FF00'>1 wPLN</font>."
+    "Store.Info": "Wesprzyj naszą sieć serwerów -- Odwiedz <font color='#4CAF50'>https://hsownia.sklepcs.pl</font> lub napisz <font color='#FFD700'>.sklepsms</font>",
+    "Store.VIP": "Dostep VIP juz od <font color='#FFD700'>2 wPLN</font>! Wiecej informacji na --<font color='#4CAF50'>https://hsownia.sklepcs.pl</font> lub napisz <font color='#FFD700'>.sklepsms</font>",
+    "Store.Reservation": "Priorytetowy dostep od <font color='#FFD700'>1wPLN</font>! Wiecej informacji na --<font color='#4CAF50'>https://hsownia.sklepcs.pl</font> lub napisz <font color='#FFD700'>.sklepsms</font>",
+    "Discord.Info": "<img src='https://github.com/niefortunny/Ads/blob/main/img/qr-discord.png?raw=true'>Dołącz na naszego <font color='#5865F2'>discorda!</font> Odwiedz <font color='#5865F2'>https://discord.hsmania.net</font>",
+    "Volunteer.Info": "Dołącz do naszego zespolu! Nawet <font color='#FFD700'>30 PLN</font> na tydzien dla najaktywniejszych! -- Wypelnij formularz na <font color='#4CAF50'>https://join.hsmania.net</font>",
+    "Wiki.Info": "<img src='https://github.com/niefortunny/Ads/blob/main/img/qr-wiki-commands.png?raw=true'><font color='#2196F3'>Lista komend serwera!</font> Odwiedz <font color='#5865F2'>https://hsmania.net/wiki/article/commands</font>",
+    "Tournament.Info": "Organizujemy kolejny turniej <font color='#FF5722'>CS2</font>! -- Wiecej informacji na <font color='#5865F2'>https://discord.hsmania.net</font>",
+    "Bug.Info": "Znalazłeś błąd? Zgłoś go na <font color='#5865F2'>discordzie</font> -- https://discord.hsmania.net",
+    "Match.Info": "<img src='https://github.com/niefortunny/Ads/blob/main/img/match-banner.png?raw=true'>"
 }
