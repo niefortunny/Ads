@@ -7,7 +7,17 @@ public class Config : BasePluginConfig
     public float Delay { get; set; } = 7f;
 
     [JsonPropertyName("Ads")]
-    public List<string> Ads { get; set; } = [];
+    public List<string> Ads { get; set; } = [
+        "Store.Info",
+        "Store.VIP",
+        "Store.Reservation",
+        "Discord.Info",
+        "Volunteer.Info",
+        "Wiki.Info",
+        "Wiki.Commands",
+        "Bug.Info",
+        "Match.Info",
+    ];
 }
 
 public partial class Ads
