@@ -3,8 +3,8 @@ using CounterStrikeSharp.API.Core;
 
 public class Config : BasePluginConfig
 {
-    [JsonPropertyName("Sound")]
-    public string Sound { get; set; } = "tr.Popup";
+    [JsonPropertyName("Delay")]
+    public float Delay { get; set; } = 7f;
 
     [JsonPropertyName("Ads")]
     public List<string> Ads { get; set; } = [];

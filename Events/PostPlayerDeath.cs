@@ -2,7 +2,6 @@ using CounterStrikeSharp.API;
 using CounterStrikeSharp.API.Core;
 using CounterStrikeSharp.API.Core.Attributes.Registration;
 using CounterStrikeSharp.API.Core.Translations;
-using CounterStrikeSharp.API.Modules.Utils;
 
 public partial class Ads
 {
@@ -10,22 +9,19 @@ public partial class Ads
     public HookResult OnPlayerDeathPost(EventPlayerDeath @event, GameEventInfo info)
     {
         var gameRules = GetGameRules();
-        if (gameRules == null || gameRules.WarmupPeriod)
+        if (gameRules == null || gameRules.WarmupPeriod || string.IsNullOrEmpty(SelectedAd))
             return HookResult.Continue;
 
         var player = @event.Userid;
         if (player == null || !player.IsValid || player.IsBot)
             return HookResult.Continue;
 
-        var random = new Random();
-        var adIndex = random.Next(0, Config.Ads.Count);
-        var adMessage = Config.Ads[adIndex];
+        PlayersHash.Add(player);
 
-        Server.NextFrame(() =>
+        AddTimer(Config.Delay, () =>
         {
-            player.PrintToCenter(Localizer.ForPlayer(player, adMessage));
-            RecipientFilter filter = [player];
-            player.EmitSound(Config.Sound, filter);
+            if (player.IsValid)
+                PlayersHash.Remove(player);
         });
 
         return HookResult.Continue;
