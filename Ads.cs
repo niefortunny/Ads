@@ -5,7 +5,7 @@ using CounterStrikeSharp.API.Modules.Utils;
 public partial class Ads : BasePlugin, IPluginConfig<Config>
 {
     public override string ModuleName => "Ads";
-    public override string ModuleVersion => "0.0.1";
+    public override string ModuleVersion => "0.0.2";
     public override string ModuleAuthor => "unfortunate";
 
     internal static CCSGameRules? GetGameRules() =>
